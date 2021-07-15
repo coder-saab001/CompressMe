@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <title>File Compressor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">COMPRESS Me...</h1>
+    <div class="bigdiv">
+
+        <!-- Uploading file -->
+        <div class="box">
+            <h2>STEP 1: UPLOAD YOUR FILE</h2>
+            <div id="step1">
+                <form class="form" id="fileForm">
+                    <input type="file" id="uploadFile" class="input button item">
+                    <input type="submit" value="Submit" class="input button item" id="submitBtn">
+                </form>
+                <span id="text1">(.txt files only)</span>
+            </div>
+        </div>
+
+        <!-- Selecting Action -->
+        <div class="box">
+            <h2>STEP 2: SELECT&nbspACTION</h2>
+            <div id="step2">
+                <button type="button" id="encode" class="button item">COMPRESS</button>
+                <button type="button" id="decode" class="button item">DE-COMPRESS</button>
+            </div>
+        </div>
+
+        <!-- Wait a moment -->
+        <div class="box">
+            <h2>STEP 3: SIT BACK AND RELAX</h2>
+            <div id="step3">
+            </div>
+            <button type="button" onclick="location.reload()" class="button item">Click Here</button> to Start Again!
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
