@@ -45,4 +45,4 @@ Huffman Coding based .txt file compressor
 
 * Website is Responsive
 
-![responsive](ss/ss8.jpg | width=200)
+<img src="ss/ss8.jpg" width="200">
